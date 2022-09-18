@@ -1,2 +1,2 @@
 # react-testing
-this repository contains how to use the react testing library in each component.
+this repository <strong>contains how to use the react testing</strong> library in each component.
