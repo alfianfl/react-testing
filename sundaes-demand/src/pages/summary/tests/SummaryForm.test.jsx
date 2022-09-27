@@ -18,6 +18,22 @@ test('initial conditions', () => {
   expect(confirmButton).toBeDisabled();
 });
 
+// test('initial conditions', () => {
+//   render(<SummaryForm />);
+
+//   const checkbox = screen.getByRole('checkbox', {
+//     name: /Terms and Conditions/i
+//   });
+
+//   const confirmButton = screen.getByRole('button', {
+//     name: /confirm order/i
+//   });
+
+//   expect(checkbox).not.toBeChecked();
+
+//   expect(confirmButton).toBeDisabled();
+// });
+
 test('checkbox disables button on first click and enables on second click', async () => {
   render(<SummaryForm />);
 
